@@ -1,0 +1,18 @@
+name: CommandManager
+version: '1.0-SNAPSHOT'
+main: io.github.gummiangler.commandmanager.CommandManager
+api-version: '1.21'
+dependencies:
+  server:
+    Multiverse-Core:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    Multiverse-Inventories:
+      load: BEFORE
+      required: true
+      join-classpath: true
+    LootRandomizer:
+      load: BEFORE
+      required: true
+      join-classpath: true
