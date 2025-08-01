@@ -109,6 +109,7 @@ public class ChallengeCommand {
         return MultiverseCoreApi.get().getSafetyTeleporter().to(spawnLocation).teleport(players);
     }
 
+
     public static AsyncAttemptsAggregate<Void, TeleportFailureReason> removePlayers(List<Player> players) {
         if (players.isEmpty()) {
             return AsyncAttemptsAggregate.emptySuccess();
